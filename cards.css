@@ -1,0 +1,130 @@
+h2{
+    margin-left: 600px;
+    margin-top: 24px;
+}
+
+h2::before{
+    content: "";
+    border:1px solid #ccc;
+    width: 520px;
+    position: absolute;
+    left: 50px;
+    top:38px;
+    border-bottom-style: none;
+}
+
+h2::after{
+    content: "";
+    border:1px solid #ccc;
+    width: 490px;
+    position: absolute;
+    right: 20px;
+    top:38px;
+    border-bottom-style: none;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h3{
+    color: #252122;
+    font-size: 18px;
+    font: "source sans pro";
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#p1{
+    color: gray;
+    font-size: 14.6667px;
+    font:"source sans pro";
+    margin: 0px 0px 9.333px;
+    padding: 20px;
+    font-weight: 100;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+#p2{
+    color: gray;
+    font-size: 14.6667px;
+    font:"source sans pro";
+    margin: 0px 0px 9.333px;
+    padding: 20px;
+    font-weight: 100;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+p{
+    color: #5d5d5d;
+    font: 1.6667px;
+    font: "source sans pro";
+    margin: 7.33333px 0px;
+    font-weight: 10;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#b1{
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: #d52349;
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    margin-right: 18px;
+    margin-left: 20px;
+}
+#b2{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    margin-left: 100px;
+}
+#b3{
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: #d52349;
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    margin-left: 30px;
+}
+#b4{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    margin-left: 100px;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#sec1{
+    padding: 20px 0px 0px 20px;
+    height: 100vh;
+}
+#sec2{
+    padding: 20px 0px 0px 20px;
+}
